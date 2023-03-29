@@ -12,22 +12,22 @@
         android:theme="@style/Theme.Packsnpaws"
         tools:targetApi="31">
         <activity
-            android:name=".cuidadorDescription"
+            android:name=".CuidadorDescription"
             android:exported="false" />
         <activity
-            android:name=".descriptionPet"
+            android:name=".DescriptionPet"
             android:exported="false" />
         <activity
-            android:name=".petProfile"
+            android:name=".PetProfile"
             android:exported="false" />
         <activity
-            android:name=".cuidadorProfile"
+            android:name=".CuidadorProfile"
             android:exported="false" />
         <activity
-            android:name=".chats"
+            android:name=".Chats"
             android:exported="false" />
         <activity
-            android:name=".descriptionRide"
+            android:name=".DescriptionRide"
             android:exported="false" />
         <activity
             android:name=".calendar"
@@ -39,13 +39,13 @@
             android:name=".paymentMethod"
             android:exported="false" />
         <activity
-            android:name=".profileHome"
+            android:name=".ProfileHome"
             android:exported="false" />
         <activity
-            android:name=".register"
+            android:name=".Register"
             android:exported="false" />
         <activity
-            android:name=".home"
+            android:name=".Home"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

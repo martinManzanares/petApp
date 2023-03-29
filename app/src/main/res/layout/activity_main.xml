@@ -29,6 +29,7 @@
         android:textSize="20sp" />
 
     <Button
+        android:id="@+id/start_btn"
         android:layout_width="290dp"
         android:layout_height="40dp"
         android:text="@string/btn_start"
@@ -41,6 +42,7 @@
         />
 
     <Button
+        android:id="@+id/create_btn"
         android:layout_width="290dp"
         android:layout_height="40dp"
         android:text="@string/btn_create"

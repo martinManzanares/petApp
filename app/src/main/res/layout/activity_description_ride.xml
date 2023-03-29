@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/first_gradient"
-    tools:context=".descriptionRide">
+    tools:context=".DescriptionRide">
 
 
     <ImageView
@@ -137,6 +137,7 @@
         />
 
     <Button
+        android:id="@+id/rentar"
         android:layout_width="290dp"
         android:layout_height="40dp"
         android:text="@string/btn_rentar"
@@ -149,6 +150,7 @@
         />
 
     <Button
+        android:id="@+id/cancel_button"
         android:layout_width="290dp"
         android:layout_height="40dp"
         android:text="@string/btn_cancelar"

@@ -6,9 +6,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/second_gradient"
-    tools:context=".profileHome">
+    tools:context=".ProfileHome">
 
     <ImageButton
+        android:id="@+id/exitbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/exit"
@@ -134,17 +135,9 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <ImageButton
-                android:layout_width="170dp"
-                android:layout_height="105dp"
-                android:src="@drawable/mercadoMunicipal"
-                android:layout_marginTop="5dp"
-                android:layout_marginLeft="20dp"
-                />
-
-            <ImageButton
-                android:layout_width="170dp"
-                android:layout_height="105dp"
+            <ScrollView
+                android:layout_width="200dp"
+                android:layout_height="210dp"
                 android:src="@drawable/mercadoMunicipal"
                 android:layout_marginTop="5dp"
                 android:layout_marginLeft="20dp"
@@ -159,16 +152,26 @@
         android:text="@string/Description_home"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="10dp"
         android:layout_marginLeft="15dp"
+        />
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="5dp"
+        android:padding="5dp"
+        android:numColumns="auto_fit"
         />
 
 
     <ImageButton
+        android:id="@+id/homebtn"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:src="@drawable/home"
-        android:layout_marginTop="240dp"
+        android:layout_marginTop="5dp"
         android:layout_marginLeft="52dp"
         />
 
@@ -180,6 +183,7 @@
         android:layout_marginLeft="50dp"/>
 
     <ImageButton
+        android:id="@+id/petsbtn"
         android:layout_width="40dp"
         android:layout_height="35dp"
         android:src="@drawable/bone"
@@ -195,6 +199,7 @@
         android:layout_marginLeft="140dp"/>
 
     <ImageButton
+        android:id="@+id/profilebtn"
         android:layout_width="40dp"
         android:layout_height="35dp"
         android:src="@drawable/user"
@@ -210,6 +215,7 @@
         android:layout_marginLeft="228dp"/>
 
     <ImageButton
+        android:id="@+id/chatsbtn"
         android:layout_width="40dp"
         android:layout_height="35dp"
         android:src="@drawable/chat"

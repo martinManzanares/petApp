@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/first_gradient"
-    tools:context=".register">
+    tools:context=".Register">
 
     <ImageButton
         android:id="@+id/backbtn"
@@ -132,6 +132,7 @@
         />
 
     <Button
+        android:id="@+id/register_btn"
         android:layout_width="290dp"
         android:layout_height="40dp"
         android:text="@string/btn_register"

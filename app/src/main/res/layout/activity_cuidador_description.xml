@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/first_gradient"
-    tools:context=".descriptionRide">
+    tools:context=".DescriptionRide">
 
 
     <ImageView
@@ -38,6 +38,7 @@
         />
 
     <ImageView
+        android:id="@+id/config_cuidador"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:src="@drawable/baseline_more_horiz_24"
@@ -100,6 +101,7 @@
 
 
     <Button
+        android:id="@+id/sendmsj"
         android:layout_width="290dp"
         android:layout_height="40dp"
         android:text="Mandar Mensaje"
@@ -112,6 +114,7 @@
         />
 
     <Button
+        android:id="@+id/solicitarcuidado"
         android:layout_width="290dp"
         android:layout_height="40dp"
         android:text="Solicitar cuidado"
