@@ -22,8 +22,7 @@
         android:layout_height="241dp"
         android:layout_marginLeft="210dp"
         android:layout_marginTop="-10dp"
-        android:src="@drawable/pathhome2"
-        />
+        android:src="@drawable/pathhome2" />
 
     <EditText
         android:layout_width="match_parent"

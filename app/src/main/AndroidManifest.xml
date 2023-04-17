@@ -12,6 +12,12 @@
         android:theme="@style/Theme.Packsnpaws"
         tools:targetApi="31">
         <activity
+            android:name=".CatalogoCuidadores"
+            android:exported="false" />
+        <activity
+            android:name=".CatalagoMascotas"
+            android:exported="false" />
+        <activity
             android:name=".CuidadorDescription"
             android:exported="false" />
         <activity
