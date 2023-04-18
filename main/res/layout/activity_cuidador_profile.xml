@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/second_gradient"
+    tools:context=".CuidadorProfile">
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/pataperro"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carolina Juárez"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30sp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="125dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="-95dp"
+        />
+
+    <ImageButton
+        android:id="@+id/editbtn"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/baseline_edit_24"
+        android:layout_marginTop="-42dp"
+        android:layout_marginLeft="350dp"
+        android:background="@color/grey"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="43sp"
+        android:text="21 años - Love Cats, puedes mandarme un DM!"
+        android:fontFamily="sans-serif-light"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="80dp"
+        />
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="25sp"
+        android:text="Galeria:"
+        android:fontFamily="sans-serif-light"
+        android:textSize="20sp"
+        android:textColor="@color/teal_deep"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tus momentos favoritos"
+        android:fontFamily="sans-serif-light"
+        android:textSize="20sp"
+        android:textColor="@color/teal_deep"
+        android:layout_marginTop="-26dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25sp"
+        android:text="Rating de Cuidador"
+        android:fontFamily="sans-serif-light"
+        android:textSize="20sp"
+        android:textColor="@color/teal_deep"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <RatingBar
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:numStars="5"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25sp"
+        android:text="Muro de Comentarios"
+        android:fontFamily="sans-serif-light"
+        android:textSize="20sp"
+        android:textColor="@color/teal_deep"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:inputType="text"
+                android:shadowRadius="40"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/input_btn"
+                />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:inputType="text"
+                android:shadowRadius="40"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/input_btn"
+                />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:inputType="text"
+                android:shadowRadius="40"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/input_btn"
+                />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:inputType="text"
+                android:shadowRadius="40"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/input_btn"
+                />
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:text="Ver Todos"
+        android:layout_gravity="right"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <ImageButton
+        android:id="@+id/homebtn"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:src="@drawable/home"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Home"
+        android:textSize="15sp"
+        android:layout_marginLeft="50dp"/>
+
+    <ImageButton
+        android:id="@+id/petsbtn"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:src="@drawable/bone"
+        android:layout_marginTop="-56dp"
+        android:layout_marginLeft="140dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Pets"
+        android:textSize="15sp"
+        android:layout_marginLeft="140dp"/>
+
+    <ImageButton
+        android:id="@+id/profilebtn"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:src="@drawable/user"
+        android:layout_marginTop="-56dp"
+        android:layout_marginLeft="228dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Perfil"
+        android:textSize="15sp"
+        android:layout_marginLeft="228dp"/>
+
+    <ImageButton
+        android:id="@+id/chatsbtn"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:src="@drawable/chat"
+        android:layout_marginTop="-56dp"
+        android:layout_marginLeft="314dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Chats"
+        android:textSize="15sp"
+        android:layout_marginLeft="314dp"/>
+
+
+</LinearLayout>

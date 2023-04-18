@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/second_gradient"
+    tools:context=".ProfileHome">
+
+    <ImageButton
+        android:id="@+id/exitbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/exit"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="360dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home_page"
+        android:fontFamily="sans-serif-black"
+        android:gravity="left"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="130dp"
+        android:textSize="45sp"
+        />
+
+    <EditText
+        android:layout_width="325dp"
+        android:layout_height="40dp"
+        android:inputType="text"
+        android:shadowRadius="40"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/search_btn"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_search_24"
+        android:layout_marginTop="-34dp"
+        android:layout_marginLeft="330dp"
+        />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/round_btn2"
+                android:padding="8dp"
+                android:text="Sonora"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:padding="8dp"
+                android:text="Jalisco"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/black"/>
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:padding="8dp"
+                android:text="Sinaloa"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/black"/>
+            />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:padding="8dp"
+                android:text="Monterrey"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/black"/>
+            />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:padding="8dp"
+                android:text="Chihuahua"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/black"/>
+            />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ScrollView
+                android:layout_width="200dp"
+                android:layout_height="210dp"
+                android:src="@drawable/mercadomunicipal"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Description_home"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="5dp"
+        android:padding="5dp"
+        android:numColumns="auto_fit"
+        />
+
+
+    <ImageButton
+        android:id="@+id/homebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:src="@drawable/home"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="52dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inicio"
+        android:textSize="15sp"
+        android:layout_marginLeft="50dp"/>
+
+    <ImageButton
+        android:id="@+id/petsbtn"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:src="@drawable/bone"
+        android:layout_marginTop="-56dp"
+        android:layout_marginLeft="140dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Pets"
+        android:textSize="15sp"
+        android:layout_marginLeft="140dp"/>
+
+    <ImageButton
+        android:id="@+id/profilebtn"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:src="@drawable/user"
+        android:layout_marginTop="-56dp"
+        android:layout_marginLeft="228dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Perfil"
+        android:textSize="15sp"
+        android:layout_marginLeft="228dp"/>
+
+    <ImageButton
+        android:id="@+id/chatsbtn"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:src="@drawable/chat"
+        android:layout_marginTop="-56dp"
+        android:layout_marginLeft="314dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Chats"
+        android:textSize="15sp"
+        android:layout_marginLeft="314dp"/>
+
+</LinearLayout>

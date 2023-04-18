@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Packsnpaws</string>
+    <string name="welcome_text">Tu app ideal para viajes con tus mejores compañeros</string>
+    <string name="forgot_passsword">Olvidé mi contraseña</string>
+    <string name="create_account">Crea tu cuenta nueva</string>
+    <string name="home_page">Inicio</string>
+    <string name="Description_home">Lugares, cuidadores y mascotas</string>
+    <string name="payment_tittle">Método de pago</string>
+    <string name="payment_subtittle">Ingresa un método de pago para continuar con el proceso</string>
+    <string name="payment_success_tittle">Pago Completado</string>
+    <string name="payment_success_subtittle">¡Disfrute de su gran viaje!</string>
+    <string name="btn_start">Iniciar</string>
+    <string name="btn_create">Crear una cuenta</string>
+    <string name="btn_rentar">Rentar</string>
+    <string name="btn_register">Registrarse</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_Aceptar">Aceptar</string>
+</resources>
